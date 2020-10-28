@@ -58,4 +58,6 @@ variable "hostname" {
 }
 
 variable "customtags" {
+  description = "Assigned To"
+  default = "Derek Kitzelman"
 }
